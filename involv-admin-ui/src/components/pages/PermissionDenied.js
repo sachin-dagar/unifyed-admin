@@ -1,0 +1,43 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import LayoutTransition from "../shared/LayoutTransition";
+
+const PermissionDenied = () => {
+  return (
+    <LayoutTransition>
+      <div
+        className="
+          flex
+          items-center
+          justify-center
+          w-100
+          h-100
+          bg-gradient-to-r
+        "
+      >
+        <div className="px-40 py-20 bg-white rounded-md shadow-xl">
+          <div className="flex flex-col items-center">
+            <h1 className="font-bold text-blue-600 text-9xl">403</h1>
+
+            <h6 className="mb-2 text-2xl font-bold text-center text-gray-800 md:text-3xl">
+              <span className="text-red-500">Oops!</span> Permission Denied
+            </h6>
+
+            <p className="mb-8 text-center text-gray-500 md:text-lg">
+              The page you’re looking you do not have permission.
+            </p>
+
+            <NavLink
+              to="/tenant/analytics"
+              className="px-6 py-2 text-sm font-semibold text-blue-800 bg-blue-100"
+            >
+              Go home
+            </NavLink>
+          </div>
+        </div>
+      </div>
+    </LayoutTransition>
+  );
+};
+
+export default PermissionDenied;

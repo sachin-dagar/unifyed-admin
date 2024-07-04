@@ -1,0 +1,361 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width: 1023px) {
+  .clip-your-needful-style {
+    clip-path: polygon(90% 50%, 86% 100%, 14% 100%, 8% 50%);
+  }
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Black.woff2") format("woff2"),
+    url("./font/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-BlackItalic.woff2") format("woff2"),
+    url("./font/Poppins-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+    url("./font/Poppins-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Bold.woff2") format("woff2"),
+    url("./font/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-BoldItalic.woff2") format("woff2"),
+    url("./font/Poppins-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-ExtraBold.woff2") format("woff2"),
+    url("./font/Poppins-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-ExtraLightItalic.woff2") format("woff2"),
+    url("./font/Poppins-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-ExtraLight.woff2") format("woff2"),
+    url("./font/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Italic.woff2") format("woff2"),
+    url("./font/Poppins-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-LightItalic.woff2") format("woff2"),
+    url("./font/Poppins-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Light.woff2") format("woff2"),
+    url("./font/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Medium.woff2") format("woff2"),
+    url("./font/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-MediumItalic.woff2") format("woff2"),
+    url("./font/Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-ThinItalic.woff2") format("woff2"),
+    url("./font/Poppins-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-Regular.woff2") format("woff2"),
+    url("./font/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-SemiBold.woff2") format("woff2"),
+    url("./font/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "./font/Poppins";
+  src: url("./font/Poppins-Thin.woff2") format("woff2"),
+    url("./font/Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins-SemiBoldItalic.woff2") format("woff2"),
+    url("./font/Poppins-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer components {
+  .primaryBtn {
+    @apply h-auto flex justify-center items-center px-4    rounded-md shadow-sm  text-lg font-normal text-white  hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-150 ease-in-out;
+    background-color: #3246d3;
+  }
+  .primary-color {
+    color: #3246d3;
+  }
+  .shadow-r {
+    box-shadow: 0px 3px 6px #0000000d;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+  background-color: #f0eeee;
+}
+::-webkit-scrollbar-track {
+  background: #f0eeee;
+}
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+/* Track */
+.no-scrollbar::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: #e3e1e1;
+}
+
+/* Handle on hover */
+.no-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #e3e1e1;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+input:focus {
+  outline: none !important;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  -webkit-appearance: none;
+  background: #3246d3 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+.transform-180 {
+  transform: rotate(180deg);
+}
+
+.react-select__input {
+  min-width: 200px;
+  width: 100%;
+}
+
+.page-limit__input {
+  width: 80px;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.page-limit__menu {
+  cursor: pointer;
+}
+
+.gadget-role__input {
+  box-shadow: none !important;
+}
+
+.dynamic-form__input {
+  height: 25px;
+  box-shadow: none !important;
+}
+.dynamic-form__input input{
+  box-shadow: none !important;
+}
+.hover\:border-r-4:hover {
+  border-right-width: 4px !important;
+}
+
+.hover\:border-right-indigo-900:hover {
+  border-right-color: #3246d3 !important;
+}
+.dot___3c3SI {
+  width: fit-content;
+  color: #8b91a9;
+}
+.border-class {
+  z-index: -1;
+}
+.carousel__dot--selected div {
+  color: #623eda !important;
+  border-top: 3px solid #623eda !important;
+  position: relative;
+  z-index: 99;
+}
+
+.h-full__control {
+  height: 100%;
+}
+
+.ck.ck-content {
+  height: 300px !important;
+  border-radius: 0 0 0.3rem 0.3rem !important;
+  border-top: none !important;
+  border-color: #e5e7eb !important;
+}
+
+.ck.ck-editor__editable_inline::-webkit-scrollbar {
+  width: 5px !important;
+  cursor: pointer;
+}
+/* Track */
+.ck.ck-editor__editable_inline::-webkit-scrollbar-track {
+  background: #ffffff !important;
+  cursor: pointer;
+}
+
+/* Handle */
+.ck.ck-editor__editable_inline::-webkit-scrollbar-thumb {
+  background: #e3e1e1 !important;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+.ck.ck-editor__editable_inline::-webkit-scrollbar-thumb:hover {
+  background: #e3e1e1 !important;
+  cursor: pointer;
+}
+
+.ck.ck-focused {
+  box-shadow: none !important;
+}
+
+.ck.ck-toolbar {
+  border-radius: 0.3rem 0.3rem 0 0 !important;
+  border-bottom: none !important;
+  border-color: #e5e7eb !important;
+  background-color: white !important;
+  padding: 0.7rem 0.7rem !important;
+}
+
+.ck.ck-toolbar__items {
+  color: #eee;
+}
+
+.table {
+  cellspacing: 0;
+  cellpadding: 0;
+}
+
+.player-section .video-react-button.video-react-big-play-button.video-react-big-play-button-center{
+  border: none !important;
+  height: 90px !important;
+  width: 90px !important;
+  border-radius: 50% !important;
+  background: rgba(39,0,170,0.5) !important;
+}
+.player-section .video-react-button.video-react-big-play-button.video-react-big-play-button-center::before{
+  height: 90px !important;
+  width: 90px !important;
+  border-radius: 50% !important;
+  background: transparent;
+  top: 20px;
+}
+
+/* Custom SCSS Files. */
+
+@import "./assets/scss/ckeditor.scss";

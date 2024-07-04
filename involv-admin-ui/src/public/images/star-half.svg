@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.9 40.3" style="enable-background:new 0 0 42.9 40.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DCDCE6;}
+	.st1{clip-path:url(#SVGID_00000030461521527660564760000003133005043842487937_);}
+	.st2{fill:#4555A5;}
+	.st3{clip-path:url(#SVGID_00000062891052862626069310000009660427784058995866_);}
+</style>
+<path id="Path_16709" class="st0" d="M430,186.8h15.5l5.7-14.6l4.4,14.6h17.2l-20.5,15l8.6-0.9l3.8,11.6l-13.4-10l-12.6,10l3.9-16
+	L430,186.8z"/>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="-404.3,-136.2 -389.1,-136.2 -383.5,-150.4 -379.1,-136.2 -362.3,-136.2 -382.4,-121.5 
+			-374,-122.4 -370.3,-111 -383.5,-120.8 -395.8,-111 -392,-126.7 		"/>
+	</defs>
+	<clipPath id="SVGID_00000159451058167155107680000017314485776258730384_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Mask_Group_192" style="clip-path:url(#SVGID_00000159451058167155107680000017314485776258730384_);">
+		<rect id="Rectangle_5850" x="-416.9" y="-160.7" class="st2" width="33.6" height="60.7"/>
+	</g>
+</g>
+<g>
+	<path id="Path_16709_00000088103779115313237940000011983462807946593923_" class="st0" d="M0,14.6h15.5L21.3,0l4.4,14.6h17.2
+		l-20.5,15l8.6-0.9l3.8,11.6l-13.4-10l-12.6,10l3.9-16L0,14.6z"/>
+	<g>
+		<defs>
+			<polygon id="SVGID_00000162331250902648526160000008604627511891422122_" points="0.4,14.7 15.7,14.7 21.3,0.4 25.6,14.7 
+				42.4,14.7 22.3,29.4 30.7,28.5 34.4,39.9 21.3,30.1 8.9,39.9 12.8,24.1 			"/>
+		</defs>
+		<clipPath id="SVGID_00000032618398749115656770000016204074983697326222_">
+			<use xlink:href="#SVGID_00000162331250902648526160000008604627511891422122_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<g id="Mask_Group_192_00000148643767173707078850000015376707634874198152_" transform="translate(0 27.281)" style="clip-path:url(#SVGID_00000032618398749115656770000016204074983697326222_);">
+			
+				<rect id="Rectangle_5850_00000170258270753117512260000010976874369889921707_" x="-12.1" y="-37.2" class="st2" width="33.6" height="60.7"/>
+		</g>
+	</g>
+</g>
+</svg>
